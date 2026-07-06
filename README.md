@@ -1,56 +1,28 @@
-# Hi, I'm Alvin David 👋
+# Alvin David
 
-Data Engineer based in Kochi, Kerala — building production-grade data pipelines on Azure Databricks.
+Data Engineer with 3 years of experience across Talend, AWS, and Azure ecosystems — now focused on building production-grade Lakehouse solutions using PySpark, Delta Lake, Unity Catalog, and Azure Data Factory.
 
-Currently focused on Azure Data Engineering: PySpark, Delta Lake, Unity Catalog, ADF, and Databricks Workflows. Open to Data Engineer roles in Bangalore.
+## Production Engineering
 
----
+- Incremental processing & watermarking
+- Schema evolution & schema drift handling
+- Idempotent loads via Delta MERGE
+- Error handling & custom logging frameworks
+- Partition optimization (OPTIMIZE / ZORDER)
+- Time travel & Delta Lake history
+- Metadata-driven, config-based pipeline design
 
-## 🛠️ Tech Stack
+## Certifications
 
-**Cloud & Storage**
-Azure Databricks · Azure Data Lake Storage Gen2 · Azure Data Factory · Azure Synapse
+- AZ-900 — Azure Fundamentals
+- DP-900 — Azure Data Fundamentals
+- AI-900 — Azure AI Fundamentals
+- AWS Certified Cloud Practitioner
 
-**Processing & Format**
-PySpark · SQL · Delta Lake · Medallion Architecture
+## Featured Projects
 
-**Governance & Orchestration**
-Unity Catalog · Databricks Workflows · Delta Live Tables
+- **Olist E-Commerce Lakehouse** — Medallion architecture (Bronze/Silver/Gold), Unity Catalog, Databricks Workflows, AI/BI dashboard
+- **Fleet Telemetry Real-Time Streaming** — Kafka → Event Hubs → Structured Streaming → Delta Lake, 163K+ events processed
+- **ADF Real-World Scenarios** — 11 production ADF pipeline patterns covering dynamic loads, event triggers, and error handling
 
-**Prior Experience**
-Talend · AWS S3 · Amazon Redshift · ETL pipelines (3 years at Cognizant)
-
----
-
-## 🚀 Featured Project
-
-### [Azure Databricks E-Commerce Lakehouse](https://github.com/AlvinDavid225/azure-databricks-ecommerce-lakehouse)
-
-End-to-end Medallion Architecture pipeline on Azure Databricks processing 1.5M+ Brazilian e-commerce records.
-
-- Bronze / Silver / Gold layers with Delta Lake
-- MERGE INTO for idempotent upserts · Delta constraints for data quality
-- Unity Catalog governance with lineage tracking
-- Star schema Gold layer — fact_orders + 4 dimension tables
-- OPTIMIZE + ZORDER for query performance
-- Databricks Workflows — automated daily at 2:00 AM IST
-- Databricks AI/BI Dashboard with 5 charts
-
----
-
-## 📊 What I Build
-
-| Area | Skills |
-|---|---|
-| Pipelines | Medallion Architecture · ETL · Incremental loads |
-| Data Quality | Delta constraints · MERGE INTO · Schema drift handling |
-| Governance | Unity Catalog · External locations · Managed Identity |
-| Performance | OPTIMIZE · ZORDER · Star schema modelling |
-| Orchestration | Databricks Workflows · ADF pipelines |
-
----
-
-## 📫 Connect
-
-- GitHub: [github.com/AlvinDavid225](https://github.com/AlvinDavid225)
-- Location: Kochi, Kerala · Open to Bangalore roles
+GitHub: [github.com/AlvinDavid225](https://github.com/AlvinDavid225)
