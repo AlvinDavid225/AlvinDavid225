@@ -1,38 +1,137 @@
 # Hi, I'm Alvin David 👋
 
-Data Engineer with 3 years of experience across Talend, AWS, and Azure — now focused on Azure Databricks Lakehouse architecture, PySpark, Delta Lake, and Azure Data Factory.
+I'm a **Data Engineer** with **3 years of production ETL experience** at Cognizant and hands-on expertise building modern **Azure Data Engineering** solutions using **Azure Databricks, PySpark, Delta Lake, Structured Streaming, Unity Catalog, Azure Data Factory, and Azure Event Hubs**.
 
-I solve data engineering problems: messy raw data, slow queries, unreliable incremental loads, and brittle pipelines. 🔧
+My work focuses on designing scalable **batch and real-time data pipelines**, implementing **Medallion Architecture**, optimizing Spark workloads, and building reliable, analytics-ready lakehouse solutions.
 
-## 🚀 Featured Projects
+---
 
-**🚕 [NYC Yellow Taxi — Azure Databricks Data Pipeline](https://github.com/AlvinDavid225/nyc-taxi-azure-databricks-pipeline)**
-Medallion architecture pipeline processing 38.3M+ taxi trip records. Diagnosed and fixed a schema mismatch (INT64 vs INT32 across monthly files) that was silently rescuing 92% of rows; resolved data skew using 4-bucket salting; eliminated large shuffles with broadcast joins; applied Z-ORDER for query performance. Secured with Azure Key Vault, visualized in Power BI.
+# 🚀 Featured Projects
 
-**🏗️ [Azure Databricks E-Commerce Lakehouse](https://github.com/AlvinDavid225/azure-databricks-ecommerce-pipeline)**
-Medallion architecture (Bronze/Silver/Gold) processing 1.5M+ records, with Delta MERGE for idempotent loads, Unity Catalog governance, star schema modeling, and OPTIMIZE/ZORDER performance tuning. Orchestrated via Databricks Workflows with a Databricks AI/BI dashboard.
+## ⚡ Fleet Telemetry Real-Time Streaming Platform
+**Azure Event Hubs · Azure Databricks · Structured Streaming · Delta Lake · Unity Catalog · Databricks AI/BI**
 
-**⚡ [Fleet Telemetry Real-Time Streaming](https://github.com/AlvinDavid225/azure-databricks-real-time-streaming)**
-Kafka producer → Azure Event Hubs → Databricks Structured Streaming pipeline processing 163K+ GPS telemetry events in real time. Built Bronze/Silver/Gold streaming layers with tumbling-window aggregation, stream-static joins, and MERGE-based upserts for live per-vehicle alerts, visualized in a Databricks AI/BI dashboard.
+🔗 https://github.com/AlvinDavid225/azure-databricks-real-time-streaming
 
-**🔄 [Azure Data Factory Real-World Scenarios](https://github.com/AlvinDavid225/ADF-Real-World-Scenarios)**
-Production-grade ADF reference patterns: metadata-driven pipelines that scale to many tables, watermark-based incremental loading, event-driven ingestion via Storage Event Triggers, and custom error-logging frameworks.
+Designed and implemented a real-time fleet operations platform that processes **163,000+ streaming telemetry events** with **sub-60-second alert latency**.
 
-## 🛠️ Skills
+**Highlights**
 
-**Problem-Solving & Coding:** Python (data manipulation, debugging, production scripting) · SQL (window functions, CTEs, query optimization, incremental logic)
+- Azure Event Hubs (Kafka endpoint) ingestion
+- Bronze → Silver → Gold streaming architecture
+- Structured Streaming with watermarking and checkpointing
+- Tumbling-window aggregations and stream-static joins
+- `foreachBatch` + Delta MERGE for idempotent alert management
+- Live operational dashboard using Databricks AI/BI
 
-**Cloud & Platforms:** Azure Databricks · Azure Data Factory · ADLS Gen2 · Azure Synapse Analytics · AWS S3 · Amazon Redshift
+---
 
-**Engineering:** PySpark (broadcast joins, salting, partitioning) · Delta Lake · Structured Streaming · Unity Catalog · Medallion Architecture
+## 🏗️ Azure Databricks E-Commerce Lakehouse
+**Azure Databricks · Delta Lake · Unity Catalog · Databricks Workflows · AI/BI Dashboard**
 
-## 📜 Certifications
+🔗 https://github.com/AlvinDavid225/azure-databricks-ecommerce-pipeline
+
+Built an enterprise-style Lakehouse using the Medallion Architecture to process **1.5M+ Brazilian e-commerce records**.
+
+**Highlights**
+
+- Bronze / Silver / Gold architecture
+- Delta MERGE for incremental loading
+- Unity Catalog governance and lineage
+- Star schema dimensional modeling
+- OPTIMIZE + ZORDER performance tuning
+- Automated orchestration using Databricks Workflows
+
+---
+
+## 🚕 NYC Yellow Taxi Data Pipeline
+**Azure Databricks · PySpark · Delta Lake · Azure Key Vault · Power BI**
+
+🔗 https://github.com/AlvinDavid225/nyc-taxi-azure-databricks-pipeline
+
+Designed a large-scale batch pipeline processing **38.3 million NYC Yellow Taxi trips**.
+
+**Highlights**
+
+- Solved schema mismatch across monthly datasets
+- Broadcast joins for shuffle reduction
+- Data skew mitigation using salting
+- Delta Lake optimization using ZORDER
+- Azure Key Vault + OAuth authentication
+- Interactive Power BI reporting
+
+---
+
+## 🔄 Azure Data Factory Real-World Scenarios
+
+🔗 https://github.com/AlvinDavid225/ADF-Real-World-Scenarios
+
+A collection of reusable Azure Data Factory patterns commonly used in enterprise data engineering projects.
+
+**Includes**
+
+- Metadata-driven pipelines
+- Watermark-based incremental loading
+- Event-driven ingestion
+- Dynamic parameterization
+- Error logging and monitoring
+- Production-oriented orchestration patterns
+
+---
+
+# 🛠 Technical Skills
+
+### Programming
+
+- SQL
+- Python
+
+### Big Data
+
+- Apache Spark
+- PySpark
+- Structured Streaming
+- Delta Lake
+
+### Azure
+
+- Azure Databricks
+- Azure Data Factory
+- ADLS Gen2
+- Azure Event Hubs
+- Unity Catalog
+- Azure Key Vault
+
+### Data Engineering
+
+- ETL / ELT
+- Medallion Architecture
+- Data Modeling
+- Star Schema
+- Broadcast Joins
+- Data Skew Mitigation
+- Incremental Data Loading
+- Spark Performance Optimization
+
+### Other
+
+- AWS S3
+- Amazon Redshift
+- Power BI
+- Git
+
+---
+
+# 📜 Certifications
 
 - Microsoft Certified: Azure Fundamentals (AZ-900)
 - Microsoft Certified: Azure Data Fundamentals (DP-900)
 - Microsoft Certified: Azure AI Fundamentals (AI-900)
 - AWS Certified Cloud Practitioner
 
-## 📫 Connect
+---
 
-GitHub: [github.com/AlvinDavid225](https://github.com/AlvinDavid225)
+# 📫 Connect
+
+- GitHub: https://github.com/AlvinDavid225
+- LinkedIn: https://linkedin.com/in/alvindavid225
